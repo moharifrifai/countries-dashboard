@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Countries Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <h1>🌍 Countries Dashboard</h1>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="Search country..." />
+      <select id="region">
+        <option value="all">All Regions</option>
+        <option value="Africa">Africa</option>
+        <option value="Americas">Americas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europe</option>
+        <option value="Oceania">Oceania</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container" id="countriesContainer">
+    <!-- Countries cards -->
+  </main>
+
+  <footer class="footer">
+    Data from REST Countries API · Public & Free
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
